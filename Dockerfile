@@ -1,4 +1,4 @@
-FROM ghcr.io/evolutionapi/evolution-api:latest
+FROM evolutionapi/evolution-api:latest
 
 ENV PORT=8080
 ENV SERVER_PORT=8080
