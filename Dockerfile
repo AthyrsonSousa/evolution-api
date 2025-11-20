@@ -4,7 +4,7 @@ FROM node:18-bullseye
 RUN apt-get update && apt-get install -y git build-essential python3 && rm -rf /var/lib/apt/lists/*
 
 # Choose tag or main
-ARG EVOLUTION_TAG=main
+ARG EVOLUTION_TAG=v2.3.4
 
 WORKDIR /app
 
