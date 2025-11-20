@@ -4,7 +4,7 @@ FROM node:18-bullseye
 RUN apt-get update && apt-get install -y git build-essential && rm -rf /var/lib/apt/lists/*
 
 # build arg to set which tag/version to clone (default: v2.3.6)
-ARG EVOLUTION_TAG=v2.3.6
+ARG EVOLUTION_TAG=main
 
 WORKDIR /app
 
